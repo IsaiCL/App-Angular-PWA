@@ -5,7 +5,6 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -24,7 +23,6 @@ import { ActivatedRoute, Router } from '@angular/router';
     MatInputModule,
     MatFormFieldModule,
     MatButton,
-    FormsModule,
     MatSelectModule
   ],
   templateUrl: './form-food.component.html',
